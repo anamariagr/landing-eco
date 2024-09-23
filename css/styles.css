@@ -145,6 +145,9 @@ body {
   .subscribe-section h2 {
     margin-bottom: 30px;
   }
+  .image_block_two img {
+    width: 100%;
+}
 
   /* Footer */
   footer {
@@ -224,6 +227,59 @@ body {
       object-fit: contain;
       width: 150px;
       top: 8rem;
+  }
+     /* Estilos personalizados para la tarjeta */
+     .custom-card {
+      background-color: #69e389;
+      border-radius: 20px;
+      padding: 20px;
+      color: white;
+  }
+
+  .custom-card h4 {
+      font-size: 20px;
+      font-weight: bold;
+  }
+
+  .custom-card img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+  }
+
+  .custom-card .stat-box {
+      background-color: white;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      color: black;
+  }
+
+  .custom-card .stat-box h5 {
+      font-size: 18px;
+      font-weight: bold;
+  }
+
+  .custom-card .stat-box p {
+      margin: 0;
+      font-size: 12px;
+  }
+
+  .custom-grid img {
+      border-radius: 15px;
+      width: 100%;
+  }
+
+  .custom-grid .category {
+      font-weight: bold;
+      margin-top: 10px;
+  }
+
+  .section-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
   }
   .image-shape {
     width: 152px;
